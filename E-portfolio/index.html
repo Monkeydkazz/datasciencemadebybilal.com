@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Bilal Khafifi Azzaoui - Présentation de mes compétences, projets, et expériences en sciences des données">
+    <title>Portfolio - Bilal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Mon Portfolio - Bilal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <header id="home" class="bg-dark text-white text-center d-flex align-items-center" style="height: 100vh;">
+        <div class="container">
+            <h1 class="display-4">Bienvenue dans mon univers de la science des données</h1>
+            <p class="lead">Je suis Bilal, un passionné de l'analyse et de l'intelligence artificielle.</p>
+            <a href="#about" class="btn btn-primary btn-lg mt-4">Découvrez qui je suis</a>
+        </div>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">À propos</h2>
+            <p class="text-center">Découvrez mon parcours et mes expériences.</p>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="images/profil.jpg" alt="Photo de profil" class="img-fluid rounded-circle" style="max-width: 300px;">
+                </div>
+                <div class="col-md-8">
+                    <p>Je suis un étudiant passionné en sciences des données, avec une expertise en analyse des données, apprentissage automatique, et intelligence artificielle. J'ai une curiosité insatiable pour tout ce qui concerne les technologies modernes, les solutions basées sur l'IA et leur impact sur le monde réel. Mon objectif est de transformer des données complexes en solutions impactantes tout en poursuivant une quête constante d'innovation.</p>
+                    <a href="cv.pdf" target="_blank" class="btn btn-secondary">Télécharger mon CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Projets</h2>
+            <p class="text-center">Voici quelques réalisations dont je suis fier.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/pokemon.png" class="card-img-top" alt="Projet 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet Pokémon</h5>
+                            <p>
+                                Ce projet explore en profondeur les données Pokémon à travers une analyse statistique et graphique. Les étapes principales incluent :
+                            </p>
+                            <ul>
+                                <li><strong>Description des Données :</strong> Exploration des caractéristiques des 800 Pokémon, avec des statistiques descriptives et une étude des types.</li>
+                                <li><strong>Visualisations :</strong> Création de graphiques pour examiner la distribution des statistiques (HP, attaque, défense, etc.) et des types principaux.</li>
+                                <li><strong>Analyse Avancée :</strong> Étude des relations entre variables (ex. attaque vs défense), comparaison entre Pokémon légendaires et non légendaires, et analyse par génération.</li>
+                                <li><strong>Conclusion :</strong> Mise en lumière des tendances clés dans les caractéristiques des Pokémon.</li>
+                            </ul>
+                            <p>
+                                Ce projet démontre mes compétences en manipulation de données et en visualisation avec R.
+                            </p>
+                            <a href="rapport.pdf" target="_blank" class="btn btn-primary">Voir les résultats</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/pythonprojet.png" class="card-img-top" alt="Projet 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet Python</h5>
+                            <p>
+                                Ce projet Python consiste à explorer et analyser l'ensemble de données 
+                                <strong>Statlog German Credit Data</strong>. L'objectif est d'examiner les variables influençant 
+                                la classification des clients en fonction de leur crédit. À travers ce projet, plusieurs étapes clés ont été réalisées :
+                            </p>
+                            <ul>
+                                <li><strong>Chargement des Données :</strong> Utilisation de la bibliothèque <code>ucimlrepo</code> pour accéder aux données.</li>
+                                <li><strong>Analyse Statistique :</strong> Étude des variables qualitatives et quantitatives pour en comprendre les tendances et distributions.</li>
+                                <li><strong>Visualisation :</strong> Création d'histogrammes, matrices de corrélation et diagrammes en barres pour représenter graphiquement les relations entre les variables.</li>
+                                <li><strong>Préparation des Données :</strong> Séparation des variables en catégories qualitatives et quantitatives pour une analyse structurée.</li>
+                            </ul>
+                            <p>
+                                Ce projet met en avant mes compétences en manipulation de données, analyse statistique et 
+                                visualisation à l'aide de bibliothèques telles que <strong>Pandas</strong>, <strong>Matplotlib</strong> 
+                                et <strong>Seaborn</strong>.
+                            </p>    
+                            <a href="Projet_pyhton.html" target="_blank" class="btn btn-primary">Voir les résultats</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/sas.png" class="card-img-top" alt="Projet SAS et Excel">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestion Automatisée des Données avec Excel et SAS</h5>
+                            <p>
+                                Ce projet vise à automatiser le traitement de données issues de fichiers Excel via un programme SAS. 
+                                Les étapes principales incluent :
+                            </p>
+                            <ul>
+                                <li><strong>Entrée des Données :</strong> Importation de fichiers Excel (factures, engagements, etc.).</li>
+                                <li><strong>Traitement Automatisé :</strong> Paramétrage et génération de sorties standardisées.</li>
+                                <li><strong>Sorties Générées :</strong> Production de fichiers Excel organisés dans des dossiers structurés.</li>
+                            </ul>
+                            <p>
+                                Ce projet illustre mes compétences en automatisation et gestion de données complexes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Compétences Informatiques</h2>
+            <p class="text-center">Les logiciels et outils que je maîtrise.</p>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="images/python.png" alt="Python" class="img-fluid" style="max-height: 100px;">
+                    <p>Python : Maîtrise du langage pour l'analyse de données et le machine learning.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="images/excel.png" alt="Excel" class="img-fluid" style="max-height: 100px;">
+                    <p>Excel : Expertise dans les tableaux de bord et analyses avancées.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="images/powerbi.png" alt="Power BI" class="img-fluid" style="max-height: 100px;">
+                    <p>Power BI : Création de rapports interactifs et visualisations dynamiques.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="images/sql.png" alt="SQL" class="img-fluid" style="max-height: 100px;">
+                    <p>SQL : Conception et interrogation de bases de données relationnelles.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-3 text-center">
+                    <img src="images/rstudio.png" alt="R Studio" class="img-fluid" style="max-height: 100px;">
+                    <p>R Studio : Analyse statistique avancée et visualisation de données.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="images/sas.png" alt="SAS" class="img-fluid" style="max-height: 100px;">
+                    <p>SAS : Gestion et analyse des données à grande échelle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <p class="text-center">Entrons en contact !</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-white">
+        <p>&copy; 2025 Bilal Khafifi Azzaoui. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
